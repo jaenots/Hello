@@ -1,0 +1,10 @@
+print ("Tere!")
+a = input ("Sisesta üks arv:")
+b = input ("Sisesta üks teine arv:")
+if a < b:
+    print ("Miinimum on " + a + "!")
+elif a > b:
+    print ("Miinimum on " + b + "!")
+else:
+    print ("Miinimum puudub! Arvud on võrdsed!")
+lopp = input("Lõpp!")
